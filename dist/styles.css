@@ -1,0 +1,63 @@
+body {
+	font-family: 'Aleo', serif;
+}
+img {
+	display: block;
+	align-content: center;
+	margin: 3rem auto;
+	width: 80%;
+	max-width: 1000px;
+}
+p {
+	color: #aa966f;
+	display: flex;
+	align-items: center;
+	line-height: 1.5rem;
+}
+h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: rgba(39, 60, 56, 1);
+	text-align: center;
+	text-transform: uppercase;
+	margin: 3rem auto;
+}
+.wrapper {
+	position: flex;
+}
+.container {
+	text-align: center;
+	margin: 3rem auto;
+	width: 11rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 500px) {
+	p {
+		font-size: 1.1rem;
+		line-height: 2rem;
+	}
+	h2 {
+		font-size: 1.6rem;
+	}
+	.container {
+		width: 12rem;
+	}
+}
+@media screen and (min-width: 800px) {
+	p {
+		font-size: 1.3rem;
+	}
+	h2 {
+		font-size: 1.9rem;
+	}
+	.container {
+		width: 14rem;
+	}
+}
+@media screen and (min-width: 1300px) {
+	h2,
+	.container {
+		margin: 5rem auto;
+	}
+}
